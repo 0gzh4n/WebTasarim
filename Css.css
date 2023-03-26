@@ -1,0 +1,74 @@
+body {
+    background-image: url("harry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 98%;
+}
+div {
+   
+}
+.container {
+   background-color:#80808080;
+    width: auto;
+    border-style: double;
+    margin: auto;
+    padding: 1em;
+    
+}
+.img1 
+{
+width: 100%;
+height: 100% auto;
+}
+.col
+{
+width: 20%;
+height: 100%;
+
+}
+.btn-dark{
+    color:yellow
+}
+    .btn-dark:hover {
+        color: red;
+        
+    }
+.link
+{
+font-family: 'Times New Roman', Times, serif;
+color: yellow;
+}
+.nav{
+    background-color: blueviolet;
+}
+#navciz.link{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+
+#navciz.link::before{
+
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2px;
+background-color: rgb(5, 138, 255);
+transition: width 0.25s ease-out;
+}
+
+#navciz.link:hover::before{
+width: 100%;
+}
+
+.container,
+.container-fluid {
+    display: block;
+    margin: 16px auto;
+    border: 1px solid #0000AA;
+    background-color: #ffffff;
+}
